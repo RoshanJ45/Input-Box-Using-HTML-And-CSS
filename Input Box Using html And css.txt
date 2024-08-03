@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, init">
+    <title>Document</title>
+    <style>
+        .first{
+            border: 2px solid black;
+            text-align: center;
+            font-size: 30px;
+            background-color: cadetblue;
+        }
+        .comment{
+            border: 2px solid black;
+            margin: 10px auto;
+            backgroud-color: indianred;
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</head>    
+<body>
+    <h1 class="first">
+        Put Your Details
+    </h1>
+    <div class="Comment">
+        Name:<input type="text"
+        placeholder="Roshan Santosh Jadhav"><br><br>
+        E-mails:<input type="email" name="emails"
+         id="" placeholder="roshanjadhav12067@gmail.com"><br><br>
+         <textarea name="" id="" cols="30" rows="10">
+            comment
+Hi I'm Roshan
+         </textarea>
+    </div>
+</body>
+</html>
